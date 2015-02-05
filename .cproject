@@ -37,12 +37,15 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Arduino_Core_lib/Arduino/libraries/SoftwareSerial}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Arduino_SimpleSWModbusMaster_lib}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Arduino_Beehive_Scale/include}&quot;"/>
+									<listOptionValue builtIn="false" value="/home/sherpa/Workspaces/workspace-luna-All/zTLV_lib"/>
 								</option>
 								<option id="de.innot.avreclipse.compiler.option.def.287447756" name="Define Syms (-D)" superClass="de.innot.avreclipse.compiler.option.def" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="USB_VID=null"/>
 									<listOptionValue builtIn="false" value="USB_PID=null"/>
 									<listOptionValue builtIn="false" value="ARDUINO=105"/>
 								</option>
+								<option id="de.innot.avreclipse.compiler.option.optimize.packstruct.1664919076" superClass="de.innot.avreclipse.compiler.option.optimize.packstruct" value="false" valueType="boolean"/>
+								<option id="de.innot.avreclipse.compiler.option.optimize.shortenums.1908076381" superClass="de.innot.avreclipse.compiler.option.optimize.shortenums" value="false" valueType="boolean"/>
 								<inputType id="de.innot.avreclipse.compiler.winavr.input.1743081073" name="C Source Files" superClass="de.innot.avreclipse.compiler.winavr.input"/>
 							</tool>
 							<tool id="de.innot.avreclipse.tool.cppcompiler.app.release.74722831" name="AVR C++ Compiler" superClass="de.innot.avreclipse.tool.cppcompiler.app.release">
@@ -55,12 +58,16 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Arduino_Core_lib/Arduino/libraries/SoftwareSerial}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Arduino_SimpleSWModbusMaster_lib}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/Arduino_Beehive_Scale/include}&quot;"/>
+									<listOptionValue builtIn="false" value="/home/sherpa/Workspaces/workspace-luna-All/zTLV_lib"/>
 								</option>
 								<option id="de.innot.avreclipse.cppcompiler.option.def.2070156940" name="Define Syms (-D)" superClass="de.innot.avreclipse.cppcompiler.option.def" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="USB_VID=null"/>
 									<listOptionValue builtIn="false" value="USB_PID=null"/>
 									<listOptionValue builtIn="false" value="ARDUINO=105"/>
 								</option>
+								<option id="de.innot.avreclipse.cppcompiler.option.optimize.other.223891897" superClass="de.innot.avreclipse.cppcompiler.option.optimize.other" value="" valueType="string"/>
+								<option id="de.innot.avreclipse.cppcompiler.option.optimize.packstruct.592000577" superClass="de.innot.avreclipse.cppcompiler.option.optimize.packstruct" value="false" valueType="boolean"/>
+								<option id="de.innot.avreclipse.cppcompiler.option.optimize.shortenums.239481212" superClass="de.innot.avreclipse.cppcompiler.option.optimize.shortenums" value="false" valueType="boolean"/>
 								<inputType id="de.innot.avreclipse.cppcompiler.input.2113096698" superClass="de.innot.avreclipse.cppcompiler.input"/>
 							</tool>
 							<tool id="de.innot.avreclipse.tool.linker.winavr.app.release.100646931" name="AVR C Linker" superClass="de.innot.avreclipse.tool.linker.winavr.app.release"/>

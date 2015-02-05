@@ -111,7 +111,6 @@ void setup()
 	 */
 	modbus_configure(&SWSerial, BAUD, /*SERIAL_8N2,*/ TIMEOUT, POLLING, RETRY_COUNT, TX_ENABLE_PIN, packets, TOTAL_NO_OF_PACKETS);
 
-
 	// Initialize HoldingRegs area
 	memset( readReg_ID, 0, READ_REG_ID_SIZE * sizeof(unsigned int)) ;
 	memset( readRegs_GAUGES, 0, READ_REGS_GAUGES_SIZE * sizeof(unsigned int)) ;
